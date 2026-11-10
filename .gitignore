@@ -1,0 +1,26 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Local artifacts of the pipeline (never commit media or transcripts)
+原始480p/
+中间产物/
+字幕srt/
+软字幕/
+硬字幕/
+okf/assets/
+*.wav
+*.mp4
+*.srt
